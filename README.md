@@ -1,10 +1,19 @@
-# ezpzfile-cad
+<p align="center">
+  <img src="docs/icon.png" alt="EZPZ File CAD" width="128">
+</p>
+<h1 align="center">ezpzfile-cad</h1>
+<p align="center"><b>English</b> · <a href="README.ko.md">한국어</a> · <a href="README.ja.md">日本語</a></p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/ezpzfile-cad"><img src="https://img.shields.io/npm/v/ezpzfile-cad?color=0155FF&label=npm" alt="npm"></a>
+  <img src="https://img.shields.io/badge/dependencies-0-0155FF" alt="0 dependencies">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-0155FF" alt="MIT"></a>
+</p>
+<p align="center"><sub><a href="https://ezpzfile.com/cad-viewer">Open the CAD viewer</a></sub></p>
 
 Read CAD and BIM drawings in JavaScript. No native code, no WebAssembly, no dependencies:
 the same engines that run the [CAD viewer on ezpzfile.com](https://ezpzfile.com/cad-viewer),
 in browsers, Web Workers and Node.
 
-[한국어](README.ko.md) · [日本語](README.ja.md)
 
 ```bash
 npm install ezpzfile-cad

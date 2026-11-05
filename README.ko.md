@@ -1,4 +1,14 @@
-# ezpzfile-cad
+<p align="center">
+  <img src="docs/icon.png" alt="EZPZ File CAD" width="128">
+</p>
+<h1 align="center">ezpzfile-cad</h1>
+<p align="center"><a href="README.md">English</a> · <b>한국어</b> · <a href="README.ja.md">日本語</a></p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/ezpzfile-cad"><img src="https://img.shields.io/npm/v/ezpzfile-cad?color=0155FF&label=npm" alt="npm"></a>
+  <img src="https://img.shields.io/badge/dependencies-0-0155FF" alt="0 dependencies">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-0155FF" alt="MIT"></a>
+</p>
+<p align="center"><sub><a href="https://ezpzfile.com/ko/cad-viewer">캐드 뷰어 열기</a></sub></p>
 
 자바스크립트로 캐드·BIM 도면을 읽습니다. 네이티브 코드, WebAssembly, 의존성이 없습니다.
 [ezpzfile.com 캐드 뷰어](https://ezpzfile.com/ko/cad-viewer)가 쓰는 엔진 그대로이며, 브라우저·웹 워커·Node 에서 돌아갑니다.
