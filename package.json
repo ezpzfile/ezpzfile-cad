@@ -1,0 +1,30 @@
+{
+  "name": "ezpzfile-cad",
+  "version": "0.1.0",
+  "description": "Read CAD and BIM drawings in JavaScript: DWG (R12 to 2018+), DXF, DWFx, Jw_cad, iCAD SX, SXF, Gerber/ODB++, IGES, Inventor, IFC, STEP, SketchUp, glTF, OBJ, STL, 3DS, FBX. Clean-room, no dependencies, runs in browsers, workers and Node.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": ["cad", "dwg", "dxf", "jww", "ifc", "step", "skp", "sketchup", "iges", "gerber", "autocad", "bim", "parser", "viewer"],
+  "homepage": "https://ezpzfile.com/cad-viewer",
+  "repository": { "type": "git", "url": "git+https://github.com/ezpzfile/ezpzfile-cad.git" },
+  "bugs": { "url": "https://github.com/ezpzfile/ezpzfile-cad/issues" },
+  "license": "MIT",
+  "author": "EZPZ File (https://ezpzfile.com)",
+  "engines": { "node": ">=20" },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}
